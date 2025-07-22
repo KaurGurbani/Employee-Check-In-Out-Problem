@@ -58,7 +58,7 @@ This output includes:
 - Number of out events (breaks)
 - Total work hours (calculated using SQL logic)
 
-![Query Output](https://raw.githubusercontent.com/KaurGurbani/Employee-Check-In-Out-Problem/main/docs/query_output.png.png)
+![Query Output](query_output.png)
 
 
 ---
