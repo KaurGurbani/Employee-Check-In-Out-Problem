@@ -47,13 +47,19 @@ Table: `CheckInOutLog`
 
 ---
 
-## 🧮 Sample Output
+## ✅ Sample Output
 
-| EmpID | Name | FirstCheckInTime     | LastCheckOutTime    | TotalOutCount | TotalWorkHours |
-|-------|------|----------------------|----------------------|----------------|----------------|
-| 1     | Him  | 2024-01-03 10:08     | 2024-01-03 18:08     | 3              | 06:07          |
-| 2     | Raj  | 2024-01-03 10:10     | 2024-01-03 15:12     | 2              | 04:49          |
-| 3     | Anu  | 2024-01-03 10:12     | 2024-01-03 18:35     | 2              | 08:18          |
+Below is the real output generated after running the final SQL logic:
+
+This output includes:
+
+- First check-in time
+- Last check-out time
+- Number of out events (breaks)
+- Total work hours (calculated using SQL logic)
+
+
+![Query Output](./docs/query_output.png.png)
 
 ---
 
